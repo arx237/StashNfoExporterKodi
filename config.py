@@ -1,5 +1,5 @@
 # if needed for remote access, add your stash api_key
-#api_key = ""
+api_key = ""
 #
 # we use the built in plugin access to talk to your stash, this is for search/replacement in URLs
 # substitute the replacement for the server url, if they are different
@@ -12,7 +12,7 @@ replacement_server_url = "http://localhost:9999"
 save_path = "with files"
 #
 # filenaming options: stashid or filename?  stashid (a number) is cleaner, and sure to be updated (and not orphaned), even if the filename changes.
-# if you set the above to "with files", it'll force filename anyway, to match the filename.
+# if you set the above to "with files", it'll force filename anyway, to match the filename. Leave set to "stashid" if save_path = "with files".
 filename = "stashid"
 #
 # name of playlist file extension
@@ -24,7 +24,7 @@ playlist_ext = "strm"
 # Use false if you are using some non-Kodi application that doesn't support it, and you just want a pure URL strm file.
 m3u = True
 #
-# name of tag that is parent of Genre tags, so we can label Genres
+# name of tag that is parent of Genre tags, so we can label Genres. 
 genre_parentname = "Themes"
 #
 # When should the nfo be generated?
