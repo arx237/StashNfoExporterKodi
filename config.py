@@ -1,5 +1,5 @@
 # if needed for remote access, add your stash api_key
-api_key = ""
+#api_key = ""
 #
 # we use the built in plugin access to talk to your stash, this is for search/replacement in URLs
 # substitute the replacement for the server url, if they are different
